@@ -11,6 +11,7 @@ public class Menu {
       System.out.printf("%d - %s\n", index, zones.get(index));
     }
     var choose = sc.nextLine();
+    sc.close();
     return choose;
   }
 }
